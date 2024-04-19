@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <h1>Progress Bar</h1>
       <div className="container">
-        <div className="bar" style={{ width: `${number}%`, backgroundColor: "green" }}></div>
+        <div className="bar" style={{ width: `${number}%`, backgroundColor: "green" }}>{number}%</div>
       </div>
       <p>{msg}</p>
     </div>
